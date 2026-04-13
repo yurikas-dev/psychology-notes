@@ -1,0 +1,43 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('ja-positive');
+articles.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const bannerColors = [
+  'from-emerald-200 to-teal-300',
+  'from-teal-200 to-emerald-300',
+  'from-green-200 to-teal-200',
+  'from-emerald-100 to-green-300',
+];
+---
+
+<Layout title="ポジティブ心理学">
+  <div class="mb-10">
+    <h1 class="text-3xl font-bold mb-2">ポジティブ心理学</h1>
+    <p class="text-base-content/60">ウェルビーイング・強み・レジリエンス・フローなど、人間のポジティブな側面を科学的に探求する分野の学習ノート。</p>
+  </div>
+
+  {articles.length === 0 ? (
+    <p class="text-base-content/40 text-sm">記事は準備中です。</p>
+  ) : (
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {articles.map((article, i) => (
+        <a href={`/ja/positive/${article.id}`} class="card bg-base-100 shadow hover:shadow-lg transition-shadow overflow-hidden">
+          <figure class={`h-36 bg-gradient-to-br ${bannerColors[i % bannerColors.length]}`} />
+          <div class="card-body p-5">
+            <h2 class="card-title text-base leading-snug">{article.data.title}</h2>
+            <p class="text-sm text-base-content/60 mt-1 line-clamp-2">{article.data.description}</p>
+            <div class="mt-3 flex items-center justify-between">
+              <time class="text-xs text-base-content/40">{article.data.date}</time>
+              {article.data.tags && article.data.tags.length > 0 && (
+                <span class="badge badge-secondary badge-outline badge-xs">{article.data.tags[0]}</span>
+              )}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  )}
+</Layout>

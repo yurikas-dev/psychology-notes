@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const sections = [
+  {
+    href: '/ja/positive',
+    label: 'ポジティブ心理学',
+    description: 'ウェルビーイング・強み・レジリエンスなど、人間のポジティブな側面を科学的に探求する分野。',
+    borderClass: 'border-t-4 border-base-300',
+    iconSize: '12rem',
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
+    </svg>`,
+  },
+  {
+    href: '/ja/performance',
+    label: 'パフォーマンス心理学',
+    description: 'モチベーション・集中・目標設定など、パフォーマンス向上に関する心理学的アプローチ。',
+    borderClass: 'border-t-4 border-base-300',
+    iconSize: '10rem',
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+    </svg>`,
+  },
+];
+---
+
+<Layout title="ホーム">
+  <!-- Hero -->
+  <div class="relative -mt-10 mb-16 h-[420px] overflow-hidden w-screen" style="margin-left: calc(50% - 50vw)">
+    <img
+      src="/hero.jpg"
+      alt="木漏れ日の森を歩く人物"
+      class="w-full h-full object-cover"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-white/20 to-base-200" />
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+      <h1 class="text-5xl font-bold text-base-content drop-shadow-sm mb-4">Psychology Notes</h1>
+      <p class="text-base-content text-lg max-w-xl">
+        カレッジの一般教養コースで学んだ心理学の基礎をまとめたノートです。
+      </p>
+    </div>
+  </div>
+
+  <!-- Cards -->
+  <div class="grid sm:grid-cols-2 gap-6">
+    {sections.map(({ href, label, description, borderClass, icon, iconSize }) => (
+      <a href={href} class={`card bg-base-100 shadow hover:shadow-md transition-shadow relative overflow-hidden ${borderClass}`}>
+        <div
+          class="absolute inset-4 flex items-center justify-center opacity-[0.10] pointer-events-none select-none"
+          aria-hidden="true"
+        >
+          <div style={`width:${iconSize};height:${iconSize};`} set:html={icon} />
+        </div>
+        <div class="card-body relative z-10">
+          <h2 class="text-2xl font-semibold mb-2">{label}</h2>
+          <p class="text-base-content text-sm leading-relaxed">{description}</p>
+          <div class="card-actions justify-end mt-4">
+            <span class="text-sm font-medium text-primary">ノートを見る →</span>
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
+</Layout>
