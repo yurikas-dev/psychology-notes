@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+  themes: nord --default;
+}
+
+/* Fonts */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+}
+
+/* AC mix: academic structure + soft mindful palette */
+[data-theme="nord"] {
+  --color-primary: oklch(52% 0.14 272);    /* muted slate-indigo */
+  --color-secondary: oklch(56% 0.10 162);  /* sage green */
+  --color-accent: oklch(68% 0.10 300);     /* soft lavender */
+  --color-base-100: oklch(99% 0.005 272);  /* near-white with cool tint */
+  --color-base-200: oklch(96% 0.008 272);  /* light cool gray */
+  --color-base-300: oklch(91% 0.012 272);
+}

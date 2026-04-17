@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { render } from 'astro:content';
+import { useTranslations, type Lang } from '../i18n/translations';
+
+interface Props {
+  article: any;
+  lang: Lang;
+  section: 'positive' | 'performance';
+}
+
+const { article, lang, section } = Astro.props;
+const t = useTranslations(lang);
+const { Content } = await render(article);
+
+const isPositive = section === 'positive';
+const backPath = lang === 'ja' ? `/ja/${section}` : `/${section}`;
+const backLabel = t(`article.backTo${isPositive ? 'Positive' : 'Performance'}`);
+const gradientClass = isPositive
+  ? 'from-emerald-200 to-teal-300'
+  : 'from-violet-200 to-indigo-300';
+const badgeClass = isPositive ? 'badge-secondary' : 'badge-primary';
+const badgeLabel = t(`${section}.badge`);
+---
+
+<Layout title={article.data.title} description={article.data.description}>
+  <div class="mb-6">
+    <a href={backPath} class="btn btn-ghost btn-sm gap-1 -ml-2">
+      {backLabel}
+    </a>
+  </div>
+
+  <div class="card bg-base-100 shadow">
+    {article.data.image
+      ? <figure class="h-48 overflow-hidden"><img src={article.data.image} alt={article.data.title} class="w-full h-full object-cover" /></figure>
+      : <figure class={`h-48 bg-gradient-to-br ${gradientClass}`} />
+    }
+    <div class="card-body">
+      <div class={`badge badge-soft ${badgeClass} badge-sm mb-1`}>{badgeLabel}</div>
+      <h1 class="text-2xl font-bold">{article.data.title}</h1>
+      <div class="flex items-center gap-3 mt-1 mb-4">
+        <time class="text-sm text-base-content/40">{article.data.date}</time>
+        {article.data.tags && (
+          <div class="flex gap-2">
+            {article.data.tags.map((tag: string) => (
+              <span class={`badge ${badgeClass} badge-outline badge-sm`}>{tag}</span>
+            ))}
+          </div>
+        )}
+      </div>
+      <div class="divider mt-0 mb-4" />
+      <article class="prose prose-sm max-w-none">
+        <Content />
+      </article>
+    </div>
+  </div>
+</Layout>
