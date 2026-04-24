@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css'
 import { getLangFromUrl, useTranslations, languages } from '../i18n/translations';
+import Analytics from '@vercel/analytics/astro'
 
 interface Props {
   title: string;
@@ -111,5 +112,6 @@ function isActive(path: string): boolean {
       <p class="text-sm opacity-60">Psychology Notes — {t('footer.text')}</p>
     </footer>
 
+    <Analytics />
   </body>
 </html>
