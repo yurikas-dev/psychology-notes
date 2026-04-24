@@ -16,7 +16,7 @@ const collectionName = lang === 'ja'
   : section;
 
 const articles = await getCollection(collectionName);
-articles.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+articles.sort((a, b) => new Date(a.data.date).getTime() - new Date(b.data.date).getTime());
 
 const isPositive = section === 'positive';
 const basePath = lang === 'ja' ? `/ja/${section}` : `/${section}`;
