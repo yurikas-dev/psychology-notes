@@ -1,8 +1,9 @@
 ---
-title: "Flow State"
+title: 'Flow State'
 description: "Csikszentmihalyi's concept of optimal experience — the state of complete immersion in a challenging activity"
-date: "2024-01-15"
-tags: ["Flow", "Immersion", "Csikszentmihalyi"]
+date: '2025-09-27'
+tags: ['Flow', 'Immersion', 'Csikszentmihalyi']
+image: '/images/positive/flow-state.jpg'
 ---
 
 ## What is Flow?

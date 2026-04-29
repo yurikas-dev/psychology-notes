@@ -1,7 +1,7 @@
 ---
 title: "What Is Positive Psychology?"
 description: "An introduction to the origins, goals, and core principles of Positive Psychology — the scientific study of what makes life worth living."
-date: "2024-01-08"
+date: "2025-09-06"
 tags: ["Foundations", "Seligman", "Well-being"]
 image: "/images/positive/what-is-positive-psychology.jpg"
 ---

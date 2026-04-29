@@ -1,7 +1,7 @@
 ---
 title: "ポジティブ心理学とは？"
 description: "ポジティブ心理学の起源・目的・基本原則の紹介 ── 生きる意味を科学的に研究する学問。"
-date: "2024-01-08"
+date: "2025-09-06"
 tags: ["基礎", "セリグマン", "ウェルビーイング"]
 image: "/images/positive/what-is-positive-psychology.jpg"
 ---
