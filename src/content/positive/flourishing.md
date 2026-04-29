@@ -1,8 +1,9 @@
 ---
-title: "Flourishing: What Does It Mean to Thrive?"
-description: "A deeper look at what it means to live well — moving beyond happiness as a feeling to flourishing as a complete, multidimensional state of well-being."
-date: "2024-01-12"
-tags: ["Flourishing", "Well-being", "Seligman", "Foundations"]
+title: 'Flourishing: What Does It Mean to Thrive?'
+description: 'A deeper look at what it means to live well — moving beyond happiness as a feeling to flourishing as a complete, multidimensional state of well-being.'
+date: '2025-09-13'
+tags: ['Flourishing', 'Well-being', 'Seligman', 'Foundations']
+image: '/images/positive/flourishing.jpg'
 ---
 
 ## Beyond Happiness
@@ -13,7 +14,7 @@ People can feel good in the moment while their lives lack meaning, deep relation
 
 This led to a broader concept: **flourishing**.
 
-> *Flourishing is not simply feeling good. It is functioning well — at full human capacity.*
+> _Flourishing is not simply feeling good. It is functioning well — at full human capacity._
 
 ## What Is Flourishing?
 
@@ -29,13 +30,13 @@ Flourishing is the **opposite of languishing** — a state of emptiness, stagnat
 
 ## Languishing vs. Flourishing
 
-| Languishing | Flourishing |
-|---|---|
-| Going through the motions | Fully engaged with life |
-| Feeling empty or hollow | Sense of meaning and purpose |
-| Low energy, low motivation | Vitality and resilience |
-| Disconnected from others | Strong, meaningful relationships |
-| Just surviving | Genuinely thriving |
+| Languishing                | Flourishing                      |
+| -------------------------- | -------------------------------- |
+| Going through the motions  | Fully engaged with life          |
+| Feeling empty or hollow    | Sense of meaning and purpose     |
+| Low energy, low motivation | Vitality and resilience          |
+| Disconnected from others   | Strong, meaningful relationships |
+| Just surviving             | Genuinely thriving               |
 
 It is possible to be free of mental illness and still be languishing. Positive Psychology argues that the goal of a good life is not merely the absence of suffering — it is the active presence of flourishing.
 

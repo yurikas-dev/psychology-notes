@@ -1,8 +1,9 @@
 ---
 title: "The Science of Gratitude"
 description: "Why gratitude is one of the most researched and reliably effective practices in Positive Psychology — and how to cultivate it deliberately."
-date: "2024-01-25"
+date: "2025-10-11"
 tags: ["Gratitude", "Well-being", "Positive Emotions", "Practice"]
+image: "/images/positive/gratitude.jpg" 
 ---
 
 ## What Is Gratitude?
