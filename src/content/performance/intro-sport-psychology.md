@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Sport & Exercise Psychology"
 description: "An overview of the field of sport and exercise psychology — what it studies, who practices it, and how mental skills transfer beyond the playing field."
-date: "2024-01-08"
+date: "2025-05-03"
 tags: ["Foundations", "Mental Skills", "MPC"]
 image: "/images/performance/intro-sport-psychology.jpg"
 ---

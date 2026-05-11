@@ -1,7 +1,7 @@
 ---
 title: "スポーツ・運動心理学入門"
 description: "スポーツ・運動心理学という分野の概要 ── 何を研究し、誰が実践し、メンタルスキルがどのようにスポーツの枠を超えて応用されるか。"
-date: "2024-01-08"
+date: "2025-05-03"
 tags: ["基礎", "メンタルスキル", "MPC"]
 image: "/images/performance/intro-sport-psychology.jpg"
 ---

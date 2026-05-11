@@ -1,13 +1,14 @@
 ---
-title: "The PERMA Model"
+title: 'The PERMA Model'
 description: "Seligman's five-element framework for well-being — Positive Emotions, Engagement, Relationships, Meaning, and Accomplishment."
-date: "2025-09-20"
-tags: ["PERMA", "Well-being", "Seligman", "Framework"]
+date: '2025-09-20'
+tags: ['PERMA', 'Well-being', 'Seligman', 'Framework']
+image: '/images/positive/perma.jpg'
 ---
 
 ## What Is PERMA?
 
-The PERMA model is Martin Seligman's framework for understanding and building well-being. Introduced in his 2011 book *Flourish*, it identifies five elements that contribute independently to a life well-lived:
+The PERMA model is Martin Seligman's framework for understanding and building well-being. Introduced in his 2011 book _Flourish_, it identifies five elements that contribute independently to a life well-lived:
 
 - **P** — Positive Emotions
 - **E** — Engagement
@@ -16,6 +17,7 @@ The PERMA model is Martin Seligman's framework for understanding and building we
 - **A** — Accomplishment
 
 Each element meets three criteria:
+
 1. It contributes to well-being
 2. People pursue it for its own sake (not as a means to something else)
 3. It can be measured independently of the other elements
@@ -29,6 +31,7 @@ Positive emotions include joy, gratitude, hope, interest, amusement, awe, love, 
 Barbara Fredrickson's **Broaden-and-Build Theory** explains why: positive emotions temporarily broaden awareness and encourage exploration, which over time builds lasting cognitive, social, and psychological resources.
 
 Cultivating positive emotions is not about forcing happiness. It involves practices such as:
+
 - Savoring pleasant experiences rather than rushing past them
 - Practicing gratitude — noticing and appreciating what is good
 - Reframing setbacks to find what can be learned
@@ -46,6 +49,7 @@ Unlike positive emotions, engagement is often felt retrospectively — in the mi
 Human beings are fundamentally social. Positive relationships are one of the most consistent predictors of well-being across cultures and life stages.
 
 This element covers:
+
 - **Quality of close relationships** — feeling loved, supported, understood
 - **Social connection** — belonging to communities and groups
 - **Acts of kindness and generosity** — giving to others, which also benefits the giver
@@ -72,19 +76,20 @@ Accomplishment (also called Achievement) refers to pursuing success, mastery, an
 People seek accomplishment even when it doesn't make them happier in the moment. This is why people continue to compete, improve, and strive even in low-stakes situations. The drive to master challenges and reach goals appears to be a fundamental human motivation.
 
 Accomplishment contributes to well-being through:
+
 - A sense of competence and self-efficacy
 - Pride and satisfaction in effort and progress
 - The feeling that one's actions matter and have effect
 
 ## PERMA as a Practical Framework
 
-| Element | Question to ask yourself |
-|---|---|
-| Positive Emotions | What am I grateful for today? |
-| Engagement | When did I last lose track of time? |
-| Relationships | Who do I feel genuinely connected to? |
-| Meaning | What am I part of that is larger than myself? |
-| Accomplishment | What have I worked hard to achieve recently? |
+| Element           | Question to ask yourself                      |
+| ----------------- | --------------------------------------------- |
+| Positive Emotions | What am I grateful for today?                 |
+| Engagement        | When did I last lose track of time?           |
+| Relationships     | Who do I feel genuinely connected to?         |
+| Meaning           | What am I part of that is larger than myself? |
+| Accomplishment    | What have I worked hard to achieve recently?  |
 
 PERMA is not a checklist to complete — it is a map of dimensions worth attending to. A life that consistently neglects one or more elements is likely to feel incomplete, even if the others are strong.
 

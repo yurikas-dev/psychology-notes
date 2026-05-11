@@ -1,7 +1,7 @@
 ---
 title: "Goal-Setting Theory"
 description: "Locke and Latham's goal-setting theory and the practical application of SMART goals to boost performance"
-date: "2024-03-10"
+date: "2025-05-10"
 tags: ["Goal-Setting", "Motivation", "SMART"]
 ---
 
