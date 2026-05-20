@@ -1,7 +1,7 @@
 ---
 title: 'Flourishing: What Does It Mean to Thrive?'
 description: 'A deeper look at what it means to live well — moving beyond happiness as a feeling to flourishing as a complete, multidimensional state of well-being.'
-date: '2025-09-13'
+date: '2024-09-14'
 tags: ['Flourishing', 'Well-being', 'Seligman', 'Foundations']
 image: '/images/positive/flourishing.jpg'
 ---

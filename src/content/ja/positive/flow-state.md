@@ -1,7 +1,7 @@
 ---
 title: "フロー状態"
 description: "チクセントミハイが提唱した最適経験の概念 ── 挑戦的な活動に完全に没入した状態。"
-date: "2025-09-27"
+date: '2024-09-28'
 tags: ["フロー", "没入", "チクセントミハイ"]
 image: "/images/positive/flow-state.jpg"
 ---

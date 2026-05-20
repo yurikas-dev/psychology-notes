@@ -1,7 +1,7 @@
 ---
 title: 'Character Strengths and the VIA Classification'
 description: 'An introduction to the 24 character strengths identified by Peterson and Seligman — and how identifying and using your signature strengths supports well-being.'
-date: '2025-10-04'
+date: '2024-10-05'
 tags: ['Character Strengths', 'VIA', 'Strengths', 'Well-being']
 image: '/images/positive/character-strengths.jpg'
 ---

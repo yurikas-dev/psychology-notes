@@ -1,7 +1,7 @@
 ---
 title: 'Mindfulness and Present-Moment Awareness'
 description: 'What mindfulness is, how it supports well-being, and the evidence behind its most common practices.'
-date: '2025-10-18'
+date: '2024-10-19'
 tags: ['Mindfulness', 'Awareness', 'Practice', 'Well-being']
 image: '/images/positive/mindfulness.jpg'
 ---

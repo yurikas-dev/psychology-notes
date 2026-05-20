@@ -1,7 +1,7 @@
 ---
 title: 'The PERMA Model'
 description: "Seligman's five-element framework for well-being — Positive Emotions, Engagement, Relationships, Meaning, and Accomplishment."
-date: '2025-09-20'
+date: '2024-09-21'
 tags: ['PERMA', 'Well-being', 'Seligman', 'Framework']
 image: '/images/positive/perma.jpg'
 ---

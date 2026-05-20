@@ -1,7 +1,7 @@
 ---
 title: '性格の強みとVIA分類'
 description: 'ピーターソンとセリグマンが特定した24の性格の強みの紹介 ── 自分のシグネチャーストレングスを特定し活かすことがウェルビーイングを支える理由。'
-date: '2025-10-04'
+date: '2024-10-05'
 tags: ['性格の強み', 'VIA', 'ストレングス', 'ウェルビーイング']
 image: '/images/positive/character-strengths.jpg'
 ---

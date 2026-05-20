@@ -1,7 +1,7 @@
 ---
 title: 'Flow State'
 description: "Csikszentmihalyi's concept of optimal experience — the state of complete immersion in a challenging activity"
-date: '2025-09-27'
+date: '2024-09-28'
 tags: ['Flow', 'Immersion', 'Csikszentmihalyi']
 image: '/images/positive/flow-state.jpg'
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'PERMAモデル'
 description: 'セリグマンのウェルビーイング5要素の枠組み ── ポジティブ感情・エンゲージメント・人間関係・意味・達成。'
-date: '2025-09-20'
+date: '2024-09-21'
 tags: ['PERMA', 'ウェルビーイング', 'セリグマン', 'フレームワーク']
 image: '/images/positive/perma.jpg'
 ---

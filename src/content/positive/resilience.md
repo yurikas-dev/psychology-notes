@@ -1,7 +1,7 @@
 ---
 title: 'Resilience: Bouncing Back and Growing Forward'
 description: 'What resilience is, what it is not, and how the science of post-traumatic growth reframes how we understand recovery from adversity.'
-date: '2025-10-25'
+date: '2024-10-26'
 tags: ['Resilience', 'Growth', 'Adversity', 'Well-being']
 image: '/images/positive/resilience.jpg'
 ---
