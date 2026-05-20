@@ -43,7 +43,7 @@ const badgeClass = isPositive ? 'badge-secondary' : 'badge-primary';
       {articles.map((article, i) => (
         <a href={`${basePath}/${article.id}`} class="card bg-base-100 shadow hover:shadow-lg transition-shadow overflow-hidden">
           {article.data.image
-            ? <figure class="h-36 overflow-hidden"><img src={article.data.image} alt={article.data.title} class="w-full h-full object-cover" /></figure>
+            ? <figure class="h-36 overflow-hidden"><img src={article.data.image} alt={article.data.title} class="w-full h-full object-cover" style={`object-position: ${article.data.imagePosition ?? 'center'}`} /></figure>
             : <figure class={`h-36 bg-gradient-to-br ${bannerColors[i % bannerColors.length]}`} />
           }
           <div class="card-body p-5">

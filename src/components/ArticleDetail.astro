@@ -32,7 +32,7 @@ const badgeLabel = t(`${section}.badge`);
 
   <div class="card bg-base-100 shadow">
     {article.data.image
-      ? <figure class="h-48 overflow-hidden"><img src={article.data.image} alt={article.data.title} class="w-full h-full object-cover" /></figure>
+      ? <figure class="h-48 overflow-hidden"><img src={article.data.image} alt={article.data.title} class="w-full h-full object-cover" style={`object-position: ${article.data.imagePosition ?? 'center'}`} /></figure>
       : <figure class={`h-48 bg-gradient-to-br ${gradientClass}`} />
     }
     <div class="card-body">
