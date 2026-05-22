@@ -1,8 +1,9 @@
 ---
-title: "Motivation in Sport and Performance"
-description: "What drives athletes to train, compete, and persist — a look at intrinsic and extrinsic motivation, achievement goal theory, and what sustains long-term engagement."
-date: "2025-05-17"
-tags: ["Motivation", "Achievement Goals", "Intrinsic", "Performance"]
+title: 'Motivation in Sport and Performance'
+description: 'What drives athletes to train, compete, and persist — a look at intrinsic and extrinsic motivation, achievement goal theory, and what sustains long-term engagement.'
+date: '2025-05-17'
+tags: ['Motivation', 'Achievement Goals', 'Intrinsic', 'Performance']
+image: '/images/performance/motivation.jpg'
 ---
 
 ## Why Motivation Matters
@@ -22,6 +23,7 @@ The most fundamental distinction in motivation research is between **intrinsic**
 **Extrinsic motivation** means participating to obtain separable outcomes: trophies, scholarships, recognition, or to avoid negative consequences.
 
 Research consistently shows that intrinsically motivated athletes:
+
 - Persist longer in their sport
 - Experience higher enjoyment and lower burnout rates
 - Are more likely to continue into adulthood
@@ -38,20 +40,24 @@ This does not mean external rewards are harmful — they can support motivation 
 It identifies two primary goal orientations:
 
 ### Task Orientation (Mastery Goals)
-Success is defined by personal improvement, effort, and mastery. A task-oriented athlete asks: *Am I getting better? Did I give my best effort?*
+
+Success is defined by personal improvement, effort, and mastery. A task-oriented athlete asks: _Am I getting better? Did I give my best effort?_
 
 Task orientation is associated with:
+
 - Higher intrinsic motivation
 - Greater persistence after failure
 - More positive attitudes toward effort
 - Stronger enjoyment of sport
 
 ### Ego Orientation (Performance Goals)
-Success is defined by outperforming others or demonstrating superior ability. An ego-oriented athlete asks: *Did I win? Was I better than them?*
 
-Ego orientation is not inherently negative — the desire to compete and win is a legitimate part of sport. Problems arise when ego orientation is the *only* basis for success, particularly in contexts where ability comparisons are unfavorable. In those situations, ego-oriented athletes tend to drop out, reduce effort (to protect self-esteem), or show increased anxiety.
+Success is defined by outperforming others or demonstrating superior ability. An ego-oriented athlete asks: _Did I win? Was I better than them?_
+
+Ego orientation is not inherently negative — the desire to compete and win is a legitimate part of sport. Problems arise when ego orientation is the _only_ basis for success, particularly in contexts where ability comparisons are unfavorable. In those situations, ego-oriented athletes tend to drop out, reduce effort (to protect self-esteem), or show increased anxiety.
 
 ### The Climate Matters
+
 Coaches, parents, and teams create motivational climates that can shift athletes toward one orientation or the other. A **mastery climate** emphasizes effort, improvement, and learning from mistakes. A **performance climate** emphasizes winning, rankings, and comparison with others. Research shows mastery climates produce better long-term outcomes across a range of measures.
 
 ---
@@ -62,10 +68,10 @@ As discussed in Positive Psychology, **Self-Determination Theory** identifies th
 
 In a sport context:
 
-| Need | What It Looks Like |
-|---|---|
-| Autonomy | Athletes have input in decisions; training feels self-chosen rather than imposed |
-| Competence | Athletes experience mastery and growth; feedback is clear and informative |
+| Need        | What It Looks Like                                                                    |
+| ----------- | ------------------------------------------------------------------------------------- |
+| Autonomy    | Athletes have input in decisions; training feels self-chosen rather than imposed      |
+| Competence  | Athletes experience mastery and growth; feedback is clear and informative             |
 | Relatedness | Athletes feel connected to teammates and coaches; they belong to something meaningful |
 
 Coaches who support these needs produce athletes who are more engaged, more intrinsically motivated, and less likely to experience burnout or dropout.
@@ -77,6 +83,7 @@ Coaches who support these needs produce athletes who are more engaged, more intr
 A persistent challenge in performance contexts is **burnout** — a state of emotional and physical exhaustion, depersonalization, and reduced sense of accomplishment. It is distinct from overtraining (a physical phenomenon) and more closely related to chronic motivational depletion.
 
 Key predictors of burnout include:
+
 - High external pressure with low autonomy
 - Identity foreclosure — having sport as the only domain of self-worth
 - Chronic stress with insufficient recovery
@@ -89,11 +96,13 @@ Understanding burnout requires understanding motivation: athletes who participat
 ## Practical Implications
 
 **For athletes:**
-- Identify *why* you participate — and whether those reasons sustain you
+
+- Identify _why_ you participate — and whether those reasons sustain you
 - Set mastery goals alongside performance goals; define success partly in terms of effort and improvement
 - Cultivate interest in the process of training, not just the outcomes of competition
 
 **For coaches:**
+
 - Create mastery climates that reward effort and learning, not only winning
 - Support athlete autonomy by providing rationales, acknowledging perspectives, and offering appropriate choice
 - Monitor signs of motivational depletion, not just physical fatigue
