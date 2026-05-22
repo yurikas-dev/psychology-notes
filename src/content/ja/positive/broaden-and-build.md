@@ -3,7 +3,7 @@ title: 'ポジティブ感情の拡張と形成理論'
 description: 'バーバラ・フレドリクソンの理論 ── ポジティブ感情が「気持ちよい」こと以上になぜ重要なのか、そして繁栄を支える永続的なリソースをどのように築くのか。'
 date: '2024-11-02'
 tags: ['ポジティブ感情', 'フレドリクソン', 'ウェルビーイング', '基礎']
-image: /'images/positive/broaden-build-theory.jpg'
+image: '/images/positive/broaden-build-theory.jpg'
 ---
 
 ## ポジティブ感情をめぐる問い

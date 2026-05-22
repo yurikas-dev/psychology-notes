@@ -1,8 +1,9 @@
 ---
-title: "Goal-Setting Theory"
+title: 'Goal-Setting Theory'
 description: "Locke and Latham's goal-setting theory and the practical application of SMART goals to boost performance"
-date: "2025-05-10"
-tags: ["Goal-Setting", "Motivation", "SMART"]
+date: '2025-05-10'
+tags: ['Goal-Setting', 'Motivation', 'SMART']
+image: '/images/performance/goal-setting.jpg'
 ---
 
 ## What is Goal-Setting Theory?
@@ -11,12 +12,12 @@ Proposed by Edwin Locke and Gary Latham, this theory demonstrates that **specifi
 
 ## Conditions for Effective Goals
 
-| Condition | Description |
-|-----------|-------------|
+| Condition   | Description                                           |
+| ----------- | ----------------------------------------------------- |
 | Specificity | "Study 30 minutes, 3 times a week" beats "try harder" |
-| Difficulty | Challenging but not impossible |
-| Commitment | Goals you set yourself have higher completion rates |
-| Feedback | A system to track and see your progress |
+| Difficulty  | Challenging but not impossible                        |
+| Commitment  | Goals you set yourself have higher completion rates   |
+| Feedback    | A system to track and see your progress               |
 
 ## SMART Goals
 
