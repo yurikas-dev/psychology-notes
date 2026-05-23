@@ -55,7 +55,7 @@ function isActive(path: string): boolean {
             Psychology Notes
           </a>
         </div>
-        <div class="navbar-end hidden sm:flex items-center gap-2">
+        <div class="navbar-end hidden min-[900px]:flex items-center gap-2">
           <ul class="menu menu-horizontal px-1 gap-1">
             <li>
               <a href={lang === 'ja' ? '/ja/positive' : '/positive'}
@@ -74,26 +74,39 @@ function isActive(path: string): boolean {
             {languages[alternateLang]}
           </a>
         </div>
-        <div class="navbar-end sm:hidden">
+        <div class="navbar-end min-[900px]:hidden">
           <a href={alternatePath} class="btn btn-ghost btn-sm font-medium opacity-50 hover:opacity-100 mr-1">
             {languages[alternateLang]}
           </a>
-          <div class="dropdown dropdown-end">
-            <div tabindex="0" role="button" class="btn btn-ghost btn-square">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 20h16" />
-              </svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a href={lang === 'ja' ? '/ja/positive' : '/positive'}>{t('nav.positive')}</a></li>
-              <li><a href={lang === 'ja' ? '/ja/performance' : '/performance'}>{t('nav.performance')}</a></li>
-            </ul>
-          </div>
+          <button id="menu-open" class="btn btn-ghost btn-square" aria-label="Open menu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 20h16" />
+            </svg>
+          </button>
         </div>
       </div>
     </div>
 
-    <main class="w-full max-w-5xl mx-auto px-4 py-10 flex-1">
+    <!-- Full-screen mobile menu overlay -->
+    <div id="mobile-menu" class="fixed inset-0 z-50 bg-base-100 flex flex-col items-center justify-center hidden">
+      <button id="menu-close" class="absolute top-4 right-4 btn btn-ghost btn-square" aria-label="Close menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <nav class="flex flex-col items-center gap-10">
+        <a href={lang === 'ja' ? '/ja/positive' : '/positive'}
+           class="text-2xl font-semibold hover:text-secondary transition-colors">
+          {t('nav.positive')}
+        </a>
+        <a href={lang === 'ja' ? '/ja/performance' : '/performance'}
+           class="text-2xl font-semibold hover:text-primary transition-colors">
+          {t('nav.performance')}
+        </a>
+      </nav>
+    </div>
+
+    <main class="w-full max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-10 flex-1">
       <slot />
     </main>
 
@@ -102,5 +115,21 @@ function isActive(path: string): boolean {
     </footer>
 
     <Analytics />
+
+    <script>
+      const openBtn = document.getElementById('menu-open');
+      const closeBtn = document.getElementById('menu-close');
+      const menu = document.getElementById('mobile-menu');
+
+      openBtn?.addEventListener('click', () => {
+        menu?.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+      });
+
+      closeBtn?.addEventListener('click', () => {
+        menu?.classList.add('hidden');
+        document.body.style.overflow = '';
+      });
+    </script>
   </body>
 </html>
