@@ -47,16 +47,6 @@ function isActive(path: string): boolean {
   </head>
   <body class="min-h-screen bg-base-200 flex flex-col overflow-x-hidden">
 
-    {(currentPath === '/' || currentPath === '/ja' || currentPath === '/ja/') && (
-      <a
-        href={alternatePath}
-        class="fixed top-4 right-4 z-50 btn btn-sm bg-base-100/70 backdrop-blur-sm border border-base-300 hover:bg-base-100 font-medium text-xs"
-      >
-        {languages[alternateLang]}
-      </a>
-    )}
-
-    {currentPath !== '/' && currentPath !== '/ja' && currentPath !== '/ja/' && (
     <div class="navbar bg-base-100 shadow-sm sticky top-0 z-10">
       <div class="w-full max-w-5xl mx-auto px-4 flex items-center">
         <div class="navbar-start">
@@ -102,7 +92,6 @@ function isActive(path: string): boolean {
         </div>
       </div>
     </div>
-    )}
 
     <main class="w-full max-w-5xl mx-auto px-4 py-10 flex-1">
       <slot />
