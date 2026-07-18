@@ -7,6 +7,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://psychology-notes.vercel.app',
+  trailingSlash: 'never',
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ja'],

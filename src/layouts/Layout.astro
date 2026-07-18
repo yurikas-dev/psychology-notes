@@ -26,6 +26,14 @@ function getAlternatePath(currentPath: string, currentLang: string): string {
 const alternateLang = lang === 'en' ? 'ja' : 'en';
 const alternatePath = getAlternatePath(currentPath, lang);
 
+// SEO: canonical + hreflang alternates
+const canonicalPath = currentPath.replace(/\/$/, '') || '/';
+const canonicalUrl = new URL(canonicalPath, Astro.site).href;
+const enPath = lang === 'en' ? currentPath : alternatePath;
+const jaPath = lang === 'ja' ? currentPath : alternatePath;
+const enUrl = new URL(enPath.replace(/\/$/, '') || '/', Astro.site).href;
+const jaUrl = new URL(jaPath.replace(/\/$/, '') || '/', Astro.site).href;
+
 // nav active判定
 function isActive(path: string): boolean {
   const prefix = lang === 'ja' ? '/ja' : '';
@@ -40,6 +48,10 @@ function isActive(path: string): boolean {
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description ?? defaultDescription} />
     <meta name="google-site-verification" content="nYmo_pShCCemDCVwuDJS1stnCE-o4G09N9BDJQooXqI" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="ja" href={jaUrl} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
     <title>{title} | Psychology Notes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
