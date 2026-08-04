@@ -1,4 +1,5 @@
 {
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/",
@@ -11,11 +12,6 @@
       ],
       "destination": "/ja",
       "permanent": false
-    },
-    {
-      "source": "/:path*/",
-      "destination": "/:path*",
-      "permanent": true
     }
   ]
 }
